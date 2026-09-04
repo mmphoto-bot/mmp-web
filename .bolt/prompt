@@ -1,0 +1,33 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.PROJECT: Plenus d.o.o. — photography portfolio website
+Owner: Mate Mihaljević, Makarska Riviera, Croatia
+Services: real estate photography, hotel/restaurant photography, drone aerial photography
+
+VISUAL IDENTITY (do not change without explicit request):
+- Background: #111111
+- Text: #F5F0E8 (warm white)
+- Accent: #C8A97E (golden sand)
+- Headings font: Cormorant Garamond
+- Body font: DM Sans
+- Style: masculine, architectural dark theme, Mediterranean minimalism,
+  editorial feel, generous whitespace
+- Logo: M|M, clean geometric sans-serif with vertical dividing line
+
+TECHNICAL RULES:
+- New images go into /public, JPG format, referenced as /filename.jpg
+- Video files: MP4, max 5MB, autoplay+muted+loop+playsInline,
+  always include a poster fallback image
+- Mobile-first: every new section must have a working mobile layout
+- Contact form submits to Formspree → mate.mihaljevic@plenus.hr, do not change the endpoint
+- Favicon and existing SEO meta tags stay untouched unless explicitly requested
+
+LANGUAGE: The site is in [English/Croatian — specify which you're using],
+keep language consistent across all new sections.
+
+WHEN ADDING A NEW SECTION:
+- Follow the existing grid system and spacing used elsewhere on the site
+- Use scroll-reveal animations consistent with the gallery, don't introduce new animation styles
+- Don't add new colors outside the palette defined above
